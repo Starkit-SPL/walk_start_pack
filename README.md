@@ -11,4 +11,5 @@ colcon build
 # After from this ros2 workspace:
 
 chmod 777 ./src/runWalk
+
 ./src/runWalk
