@@ -7,3 +7,8 @@ git clone https://github.com/Starkit-SPL/walk_start_pack.git ./src/
 # Then:
 
 colcon build
+
+# After from this ros2 workspace:
+
+
+./src/runWalk
