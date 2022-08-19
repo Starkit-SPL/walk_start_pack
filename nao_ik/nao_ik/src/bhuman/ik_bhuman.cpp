@@ -110,6 +110,9 @@ bool calcLegJoints(
   insert(
     jointAngles, nao_command_msgs::msg::JointIndexes::RANKLEROLL,
     std::asin(-rFootRotationC2.y()));
+
+  insert(jointAngles, 2, 1.53);
+  insert(jointAngles, 18, 1.53);
   const float maxLen = h1 + h2;
   return hl <= maxLen && hr <= maxLen;
 }
